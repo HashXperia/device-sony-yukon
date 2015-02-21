@@ -14,6 +14,8 @@
 
 include device/sony/common/BoardConfigCommon.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/sony/msm8226-common/include
+
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_BOARD_PLATFORM := msm8226
