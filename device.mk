@@ -146,8 +146,9 @@ PRODUCT_PACKAGES += \
     ta_qmi_service \
     ta2bin
 
+# Extract recovery ramdisks
 PRODUCT_PACKAGES += \
-    rmt_storage
+    extract_elf_ramdisk
 
 #OSS
 PRODUCT_PACKAGES += \
