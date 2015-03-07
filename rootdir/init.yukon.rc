@@ -51,6 +51,9 @@ on init
     mkdir /dev/bus 0755 root root
     mkdir /dev/bus/usb 0755 root root
 
+# Proper permissions for cmdline
+    chmod 0644 /proc/cmdline
+
 on fs
     mount_all ./fstab.yukon
     setprop ro.crypto.fuse_sdcard true
